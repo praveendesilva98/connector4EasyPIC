@@ -1,0 +1,513 @@
+[p GLOBOPT AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"22 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\forms.c
+[v _GLCD_Circle GLCD_Circle `(v  1 e 1 0 ]
+"401 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\glcd.c
+[v _glcd_Init glcd_Init `(v  1 e 1 0 ]
+"441
+[v _glcd_WriteByte glcd_WriteByte `(v  1 e 1 0 ]
+"475
+[v _glcd_FillScreen glcd_FillScreen `(v  1 e 1 0 ]
+"534
+[v _glcd_ReadByte glcd_ReadByte `(uc  1 e 1 0 ]
+"570
+[v _glcd_PlotPixel glcd_PlotPixel `(v  1 e 1 0 ]
+"609
+[v _glcd_SetCursor glcd_SetCursor `(v  1 e 1 0 ]
+"635
+[v _glcd_WriteChar8X8 glcd_WriteChar8X8 `(v  1 e 1 0 ]
+"683
+[v _glcd_WriteChar3x6 glcd_WriteChar3x6 `(v  1 e 1 0 ]
+"728
+[v _glcd_WriteString glcd_WriteString `(v  1 e 1 0 ]
+"4 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\init.c
+[v _initMyPIC18F initMyPIC18F `(v  1 e 1 0 ]
+"17 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\menu.c
+[v _opening_menu opening_menu `(v  1 e 1 0 ]
+"40
+[v _menu_game menu_game `(v  1 e 1 0 ]
+"119
+[v _printBoard printBoard `(v  1 e 1 0 ]
+"134
+[v _takeTurn takeTurn `(i  1 e 2 0 ]
+"151
+[v _player_choice player_choice `(i  1 e 2 0 ]
+"251
+[v _mode_choice mode_choice `(i  1 e 2 0 ]
+"302
+[v _checkWin checkWin `(i  1 e 2 0 ]
+"308
+[v _checkFour checkFour `(i  1 e 2 0 ]
+"314
+[v _horizontalCheck horizontalCheck `(i  1 e 2 0 ]
+"330
+[v _verticalCheck verticalCheck `(i  1 e 2 0 ]
+"347
+[v _diagonalCheck diagonalCheck `(i  1 e 2 0 ]
+"14 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"9 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\uart.c
+[v _uartInit uartInit `(v  1 e 1 0 ]
+"37
+[v _uartWrite uartWrite `(i  1 e 2 0 ]
+[s S324 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2605 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[s S333 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S340 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S347 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S351 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S354 . 1 `S324 1 . 1 0 `S333 1 . 1 0 `S340 1 . 1 0 `S347 1 . 1 0 `S351 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES354  1 e 1 @3970 ]
+"2705
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S125 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3100
+[s S134 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S143 . 1 `S125 1 . 1 0 `S134 1 . 1 0 ]
+[v _LATBbits LATBbits `VES143  1 e 1 @3978 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S638 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4492
+[s S647 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S653 . 1 `S638 1 . 1 0 `S647 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES653  1 e 1 @3998 ]
+[s S583 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S592 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S595 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S598 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S601 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S604 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S606 . 1 `S583 1 . 1 0 `S592 1 . 1 0 `S595 1 . 1 0 `S598 1 . 1 0 `S601 1 . 1 0 `S604 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES606  1 e 1 @4011 ]
+[s S531 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5185
+[s S540 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S549 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S552 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S554 . 1 `S531 1 . 1 0 `S540 1 . 1 0 `S549 1 . 1 0 `S552 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES554  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5587
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+[s S39 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6710
+[s S42 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S46 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S53 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S56 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S59 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S62 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S65 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S68 . 1 `S39 1 . 1 0 `S42 1 . 1 0 `S46 1 . 1 0 `S53 1 . 1 0 `S56 1 . 1 0 `S59 1 . 1 0 `S62 1 . 1 0 `S65 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES68  1 e 1 @4034 ]
+"6792
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6799
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"77 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\glcd.c
+[v _Font3x6 Font3x6 `C[65][3]uc  1 e 195 0 ]
+"149
+[v _Font8x8 Font8x8 `C[2048]uc  1 e 2048 0 ]
+"395
+[v _x x `uc  1 e 1 0 ]
+[v _y y `uc  1 e 1 0 ]
+"8 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\menu.c
+[v _tempx tempx `i  1 e 2 0 ]
+"9
+[v _tempy tempy `i  1 e 2 0 ]
+"10
+[v _pressed pressed `i  1 e 2 0 ]
+"11
+[v _resultx resultx `i  1 e 2 0 ]
+"12
+[v _resulty resulty `i  1 e 2 0 ]
+"13
+[v _choice choice `i  1 e 2 0 ]
+"14
+[v _mode mode `i  1 e 2 0 ]
+"15
+[v _row row `i  1 e 2 0 ]
+[v _col col `i  1 e 2 0 ]
+[v _idx idx `i  1 e 2 0 ]
+[v _count count `i  1 e 2 0 ]
+"14 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"30
+} 0
+"9 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\uart.c
+[v _uartInit uartInit `(v  1 e 1 0 ]
+{
+"20
+} 0
+"17 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\menu.c
+[v _opening_menu opening_menu `(v  1 e 1 0 ]
+{
+"37
+} 0
+"251
+[v _mode_choice mode_choice `(i  1 e 2 0 ]
+{
+"298
+} 0
+"40
+[v _menu_game menu_game `(v  1 e 1 0 ]
+{
+"106
+[v menu_game@message2 message2 `[17]uc  1 a 17 17 ]
+"97
+[v menu_game@message1 message1 `[17]uc  1 a 17 0 ]
+"45
+[v menu_game@i i `i  1 a 2 80 ]
+"42
+[v menu_game@board board `[42]uc  1 a 42 34 ]
+"48
+[v menu_game@turn turn `i  1 a 2 82 ]
+"49
+[v menu_game@done done `i  1 a 2 78 ]
+"43
+[v menu_game@PIECES PIECES `*.25Cuc  1 a 2 76 ]
+"96
+[v menu_game@F3100 F3100 `[17]uc  1 s 17 F3100 ]
+"105
+[v menu_game@F3103 F3103 `[17]uc  1 s 17 F3103 ]
+"116
+} 0
+"37 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\uart.c
+[v _uartWrite uartWrite `(i  1 e 2 0 ]
+{
+[v uartWrite@c c `uc  1 a 1 wreg ]
+[v uartWrite@c c `uc  1 a 1 wreg ]
+"40
+[v uartWrite@c c `uc  1 a 1 0 ]
+"46
+} 0
+"134 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\menu.c
+[v _takeTurn takeTurn `(i  1 e 2 0 ]
+{
+[v takeTurn@row row `i  1 a 2 13 ]
+[v takeTurn@col col `i  1 a 2 11 ]
+[v takeTurn@board board `*.30uc  1 p 1 4 ]
+[v takeTurn@player player `i  1 p 2 5 ]
+[v takeTurn@PIECES PIECES `*.25Cuc  1 p 2 7 ]
+"148
+} 0
+"151
+[v _player_choice player_choice `(i  1 e 2 0 ]
+{
+"248
+} 0
+"119
+[v _printBoard printBoard `(v  1 e 1 0 ]
+{
+"125
+[v printBoard@temp temp `uc  1 a 1 16 ]
+"121
+[v printBoard@col col `i  1 a 2 19 ]
+"120
+[v printBoard@row row `i  1 a 2 17 ]
+"119
+[v printBoard@board board `*.30uc  1 p 1 15 ]
+"131
+} 0
+"728 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\glcd.c
+[v _glcd_WriteString glcd_WriteString `(v  1 e 1 0 ]
+{
+[v glcd_WriteString@str str `*.35uc  1 p 2 11 ]
+[v glcd_WriteString@font font `uc  1 p 1 13 ]
+[v glcd_WriteString@color color `uc  1 p 1 14 ]
+"738
+} 0
+"635
+[v _glcd_WriteChar8X8 glcd_WriteChar8X8 `(v  1 e 1 0 ]
+{
+[v glcd_WriteChar8X8@ch ch `uc  1 a 1 wreg ]
+"639
+[v glcd_WriteChar8X8@chr chr `ui  1 a 2 5 ]
+"638
+[v glcd_WriteChar8X8@side side `uc  1 a 1 10 ]
+"637
+[v glcd_WriteChar8X8@i i `uc  1 a 1 9 ]
+[v glcd_WriteChar8X8@xpos xpos `uc  1 a 1 8 ]
+"635
+[v glcd_WriteChar8X8@ch ch `uc  1 a 1 wreg ]
+[v glcd_WriteChar8X8@color color `uc  1 p 1 2 ]
+"638
+[v glcd_WriteChar8X8@ch ch `uc  1 a 1 7 ]
+"677
+} 0
+"683
+[v _glcd_WriteChar3x6 glcd_WriteChar3x6 `(v  1 e 1 0 ]
+{
+[v glcd_WriteChar3x6@ch ch `uc  1 a 1 wreg ]
+"686
+[v glcd_WriteChar3x6@side side `uc  1 a 1 8 ]
+"685
+[v glcd_WriteChar3x6@i i `uc  1 a 1 7 ]
+[v glcd_WriteChar3x6@xpos xpos `uc  1 a 1 5 ]
+"683
+[v glcd_WriteChar3x6@ch ch `uc  1 a 1 wreg ]
+[v glcd_WriteChar3x6@color color `uc  1 p 1 2 ]
+"686
+[v glcd_WriteChar3x6@ch ch `uc  1 a 1 6 ]
+"723
+} 0
+"609
+[v _glcd_SetCursor glcd_SetCursor `(v  1 e 1 0 ]
+{
+[v glcd_SetCursor@xpos xpos `uc  1 a 1 wreg ]
+"611
+[v glcd_SetCursor@side side `uc  1 a 1 3 ]
+"609
+[v glcd_SetCursor@xpos xpos `uc  1 a 1 wreg ]
+[v glcd_SetCursor@ypos ypos `uc  1 p 1 2 ]
+"611
+[v glcd_SetCursor@xpos xpos `uc  1 a 1 4 ]
+"629
+} 0
+"302 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\menu.c
+[v _checkWin checkWin `(i  1 e 2 0 ]
+{
+[v checkWin@board board `*.30uc  1 p 1 26 ]
+"305
+} 0
+"330
+[v _verticalCheck verticalCheck `(i  1 e 2 0 ]
+{
+"332
+[v verticalCheck@HEIGHT HEIGHT `Ci  1 a 2 22 ]
+"330
+[v verticalCheck@board board `*.30uc  1 p 1 18 ]
+"344
+} 0
+"314
+[v _horizontalCheck horizontalCheck `(i  1 e 2 0 ]
+{
+"316
+[v horizontalCheck@WIDTH WIDTH `Ci  1 a 2 22 ]
+"314
+[v horizontalCheck@board board `*.30uc  1 p 1 18 ]
+"328
+} 0
+"347
+[v _diagonalCheck diagonalCheck `(i  1 e 2 0 ]
+{
+"349
+[v diagonalCheck@DIAG_LFT DIAG_LFT `Ci  1 a 2 24 ]
+[v diagonalCheck@DIAG_RGT DIAG_RGT `Ci  1 a 2 22 ]
+"347
+[v diagonalCheck@board board `*.30uc  1 p 1 18 ]
+"363
+} 0
+"308
+[v _checkFour checkFour `(i  1 e 2 0 ]
+{
+[v checkFour@board board `*.30uc  1 p 1 6 ]
+[v checkFour@a a `i  1 p 2 7 ]
+[v checkFour@b b `i  1 p 2 9 ]
+[v checkFour@c c `i  1 p 2 11 ]
+[v checkFour@d d `i  1 p 2 13 ]
+"311
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"4 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\init.c
+[v _initMyPIC18F initMyPIC18F `(v  1 e 1 0 ]
+{
+"16
+} 0
+"401 C:\Users\Georges Khalil\Downloads\Connector4 (7)\Connector4\glcd.c
+[v _glcd_Init glcd_Init `(v  1 e 1 0 ]
+{
+[v glcd_Init@mode mode `uc  1 a 1 wreg ]
+[v glcd_Init@mode mode `uc  1 a 1 wreg ]
+"405
+[v glcd_Init@mode mode `uc  1 a 1 5 ]
+"436
+} 0
+"475
+[v _glcd_FillScreen glcd_FillScreen `(v  1 e 1 0 ]
+{
+[v glcd_FillScreen@color color `uc  1 a 1 wreg ]
+"477
+[v glcd_FillScreen@i i `uc  1 a 1 4 ]
+[v glcd_FillScreen@j j `uc  1 a 1 3 ]
+"475
+[v glcd_FillScreen@color color `uc  1 a 1 wreg ]
+"479
+[v glcd_FillScreen@color color `uc  1 a 1 2 ]
+"495
+} 0
+"441
+[v _glcd_WriteByte glcd_WriteByte `(v  1 e 1 0 ]
+{
+[v glcd_WriteByte@side side `uc  1 a 1 wreg ]
+[v glcd_WriteByte@side side `uc  1 a 1 wreg ]
+[v glcd_WriteByte@data data `uc  1 p 1 0 ]
+"443
+[v glcd_WriteByte@side side `uc  1 a 1 1 ]
+"469
+} 0
